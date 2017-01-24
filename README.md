@@ -2,7 +2,6 @@
 ## week 4 assignments
 |Excercise|week|
 |:----|-------------|
-
 |2-1.py|4|
 |2-2.py|4|
 |2-3.py|4|
