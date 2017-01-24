@@ -1,5 +1,5 @@
 # TTKS0300.7K0V1 Script Programming
-## week 4 assignments
+## Assignments
 |Excercise|week|
 |:----|-------------|
 |2-1.py|4|
