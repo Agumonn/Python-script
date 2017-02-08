@@ -10,7 +10,7 @@
 |4-1.py|6|x|
 |4-2.py|6|x|
 |4-3.py|6|x|
-|4-4.py|6||
+|4-4.py|6|x|
 |4-5.py|6||
 
 [course webpage](http://student.labranet.jamk.fi/~pelju/k17/script_python3)
