@@ -27,7 +27,6 @@ Extra) How this simulation works if there is a priority for these clients?
 clients=["first", "second", "third", "fourth", "fifth"]
 queue=[]
 served=[]
-a=0
 
 for i in clients[:]:
    queue.append(i)
