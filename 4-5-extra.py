@@ -25,30 +25,22 @@ Extra) How this simulation works if there is a priority for these clients?
 '''
 def getSortKey(item):
    return item[1]
-
+#client list with priority number
 clients=[('first',1), ('second',2), ('third',2), ('fourth',1), ('fifth',3)]
 clientsort=(sorted(clients, key=getSortKey))
+#clients sorted by priority
 queue=[]
 served=[]
 
-print(clientsort)
-for i in clients[:]:
-   queue.append(i)
-   clients.remove(i)
-   print("now serving client:",queue)
-   served.append(i)
-   queue.remove(i)
-   if queue==[] and served==["first", "second", "third", "fourth", "fifth"]:
-     print("queue is now empty")
-
-print("that was the client queue with no priority") 
 print("This is the prioritised queue") 
 print("The number after the client is the priority number for example 1,2,3") 
+
 for i in clientsort[:]:
    queue.append(i)
    clientsort.remove(i)
    print("now serving client:",queue)
    served.append(i)
    queue.remove(i)
-   if queue==[] and served==["first", "second", "third", "fourth", "fifth"]:
+   if queue==[] and clientsort==[]:
      print("queue is now empty")
+	 
