@@ -34,5 +34,5 @@ for i in clients[:]:
    print("now serving client:",queue)
    served.append(i)
    queue.remove(i)
-   if queue==[] and served==["first", "second", "third", "fourth", "fifth"]:
+   if queue==[] and clients==[]:
      print("queue is now empty")
