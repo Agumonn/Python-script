@@ -1,4 +1,6 @@
 '''
+fixed minor typos 9.2 
+
 4-5) Simulate the shop queue
 
 Add new persons to the queue from the list and serve them
