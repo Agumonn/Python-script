@@ -1,23 +1,4 @@
 '''
-   def name(self):   
-      self.name=name
-      return self.name
-   def contract(self):
-      self.contract=contract
-      return self.contract
-   def salary(self):
-      self.salary=salary
-      return self.salary
-   def tiedot(self):
-        return "nimi: " + self.name  + ",\ttunnus: " + self.contract  
-
-tyomies=Worker()
-print( tyomies.tiedot() )
-
-
-
-
- + self.salary
 
 Exercise 5-2: Inheritance
 
