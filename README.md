@@ -17,7 +17,7 @@
 |5-2.py|7|x|
 |5-3.py|7|x|
 |5-4.py|7|x|
-|5-5.py|7||
+|5-5.py|7|x|
 |5-6.py|7||
 
 [course webpage](http://student.labranet.jamk.fi/~pelju/k17/script_python3)
