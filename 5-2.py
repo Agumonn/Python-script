@@ -29,7 +29,7 @@ class Worker:
       self.contract=contract
       self.salary=salary
    def __repr__(self):
-      return repr([self.name, self.contract, self.salary])
+      return repr((self.name, self.contract, self.salary))
       
 
  
