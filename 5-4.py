@@ -36,8 +36,6 @@ class Worker:
       self.salary=salary
    def __repr__(self):
       return repr((self.name, self.contract, self.salary))
-   def __lt__(self, other):
-      return self.name < other.name
 def name(persons):
    return persons.name     
 def salary(persons):
