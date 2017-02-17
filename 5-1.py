@@ -34,5 +34,5 @@ p1 = person("Bill")
 p2 = person("Bill")
 p3 = person("Joe")
 
-print(p1 == p2)
-print(p3 == p2)
+print("p1==p2" , p1 == p2)
+print("p3==p2" , p3 == p2)
