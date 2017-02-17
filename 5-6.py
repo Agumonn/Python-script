@@ -10,6 +10,8 @@ See the possible properties by reading base theory from here:
 https://www.mathsisfun.com/algebra/trig-area-triangle-without-right-angle.html
 https://www.mathsisfun.com/geometry/herons-formula.html
 https://www.mathsisfun.com/triangle.html
+
+this script calculates the area of of 2 different triangles in different ways
 '''
 
 import math
