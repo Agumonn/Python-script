@@ -1,4 +1,23 @@
 '''
+   def name(self):   
+      self.name=name
+      return self.name
+   def contract(self):
+      self.contract=contract
+      return self.contract
+   def salary(self):
+      self.salary=salary
+      return self.salary
+   def tiedot(self):
+        return "nimi: " + self.name  + ",\ttunnus: " + self.contract  
+
+tyomies=Worker()
+print( tyomies.tiedot() )
+
+
+
+
+ + self.salary
 
 Exercise 5-2: Inheritance
 
@@ -23,13 +42,16 @@ Output:
 
 [('Bill', 'FullTime', 4500), ('John', 'PartTime', 2900), ('Calle', 'FullTime', 3900), ('Mary', 'Hourly', 2600), ('Jill', 'FullTime', 4100), ('Ann', 'Hourly', 3300)]
 '''
-class Worker:
+class Person:
+   def __init__(self,name):
+      self.name=name
+class Worker(Person):
    def __init__(self,name,contract,salary):
       self.name=name
       self.contract=contract
       self.salary=salary
    def __repr__(self):
-      return repr((self.name, self.contract, self.salary))
+      return repr([self.name, self.contract, self.salary])
       
 
  
